@@ -77,12 +77,13 @@
 ## Get Started
 
 ### Main Requirements    
-> torch>=1.11.0  
-> tqdm  
-> nibabel  
-> scipy  
-> SimpleITK  
-> monai
+> [monai](https://pypi.org/project/monai/)
+> [nibabel](https://pypi.org/project/nibabel/)
+> [opencv](https://pypi.org/project/opencv-python/)
+> [scipy](https://pypi.org/project/scipy/)
+> [SimpleITK](https://pypi.org/project/simpleitk/)
+> [torch>=1.11.0](https://pypi.org/project/torch/)
+> [tqdm](https://pypi.org/project/tqdm/)
 ### Installation
 1. Create a virtual environment `conda create -n medlsam python=3.10 -y` and activate it `conda activate medlsam`
 2. Install [Pytorch](https://pytorch.org/get-started/locally/)
